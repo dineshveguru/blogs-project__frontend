@@ -22,7 +22,7 @@ const Editor = () => {
   const submitButtonHandler = async () => {
     axios
       .post(
-        "http://localhost:5000/api/submit",
+        "https://blogs-project-server.onrender.com/api/submit",
         {
           heading: blogHeading,
           content: blog,

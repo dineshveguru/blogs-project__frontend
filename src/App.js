@@ -23,7 +23,9 @@ function App() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const { data } = await axios.get("http://localhost:5000/api/blogs");
+        const { data } = await axios.get(
+          "https://blogs-project-server.onrender.com/api/blogs"
+        );
         console.log(data);
         setBlogs(data.data);
       } catch (error) {
