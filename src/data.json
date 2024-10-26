@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Hello World 🌎",
+    "intro": "This is a sample blog written to test the UI functionality of the application.",
+    "date": "21-10-2024",
+    "link": "/hello"
+  },
+  {
+    "id": 2,
+    "title": "What is LLM?",
+    "intro": "LLM stands for Large Language Model. It's available in the wikipedia itself! But what else do we know about LLM?",
+    "date": "21-10-2024",
+    "link": "/second"
+  }
+]
